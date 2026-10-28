@@ -8,11 +8,15 @@ header {
     grid-column: 1 / 4;
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
-    text-align: left;
-    padding-top: 15px;
-    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0 100px 0;
+    justify-content: space-between;
+}
+
+.header-content {
     padding-left: 10px;
-    height: 15%;
+    margin: 0;
 }
 
 nav {
@@ -20,9 +24,9 @@ nav {
     flex-direction: row;
     background-color: black;
     padding: 10px;
-    margin: 0;
-    vertical-align: bottom;
+    margin-top: auto;
     padding-left: 0px;
+    margin-left: 0;
     margin-bottom: 0px;
 }
 
