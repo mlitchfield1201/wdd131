@@ -9,14 +9,11 @@
     <meta name="description" content="This is Malcolm Litchfield's basic page for WDD 131: Dynamic Web Fundamentals.">
     <meta name="keywords" content="WDD 131, Dynamic Web Fundamentals, Malcolm Litchfield, HTML, CSS, JavaScript, School">
     <link rel="icon" href="favicon.png" type="image/png">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
-    </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/layout.css">
-    <script src="scripts/main.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
@@ -24,20 +21,45 @@
         <span id="course-title">WDD 131 – Dynamic Web Fundamentals
         <p class="header-space">&nbsp;</p></span>
         <nav>
-            <a href="https://www.linkedin.com/in/malcolm-litchfield-1b7686364/" target="_blank">LinkedIn</a>
-            <a href="https://byupw.instructure.com/" target="_blank">Canvas</a>
-            <a href="https://www.churchofjesuschrist.org/study/scriptures/ot/prov/4#7" target="_blank">Scripture</a>
-            <a href="#">Final Project</a>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/malcolm-litchfield-1b7686364/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/" target="_blank">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/ot/prov/4#7" target="_blank">Scripture</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
         </nav>
     </header>
     <main>
         <h1>Malcolm Litchfield</h1>
-        <section class="card">&nbsp;</section>
-        <section class="card">&nbsp;</section>
+        <section class="card">
+            <h2>About Me</h2>
+           
+            <p><img class="float_right" src="images/self_photo_3_tints.jpg" alt="Malcolm Litchfield modified to show face with 3 tints" width="200">Hello! I am Malcolm Litchfield, a student in WDD 131: Dynamic Web Fundamentals.
+                 Although I live in Thailand, I was born in Canada and have worked in the US and Hong Kong.
+                  I really enjoy reading mystery novels, baking, and listening to music. My most favorite classes I&rsquo;ve 
+                  taken are the three first graphic design classes, especially the typography class and the class that taught Adobe Illustrator.</p>
+            
+            <h3>Canada&rsquo;s Flag</h3>
+
+                  
+            <p><img class="float_left" src="images/canadian_flag.jpg" alt="Canadian Flag" width="200">The national flag of Canada was adopted
+            in 1965. It was designed by George Stanley, a historian at Mount Allison University. Before this flag, the country used a version of
+        the Union Jack, symbolizing it as a commonwealth nation. The maple leaf has been a symbol of Canada since the 19th century. The red and white used on the flag
+    are now the official colors of Canada.</p>
+            
+        </section>
+        <section class="card">
+            <h2>Internet Tools I Use</h2>
+            <p><ul>
+                <li><a href="https://vivaldi.com" target="_blank">Vivaldi:</a> The best browser of them all!</li>
+                <li><a href="https://proton.me" target="_blank">Proton:</a> My choice for email, password management, online storage, and especially its awesome VPN.</li>
+                <li><a href="https://evernote.com" target="_blank">Evernote:</a> A fantastic option for note-taking and organization. I use it to file all my documents, receipts, etc. electronically.</li>
+            </ul></p>
+        </section>
     </main>
     <footer>
         <p>&copy; <span id="currentyear"></span> 🌴 Malcolm Litchfield 🌴 Thailand</p>
-        <p id="lastModified"></p>
+        <p class="lastModified">Last modified: <span id="lastModified"></span></p>
     </footer>
 </body>
 
