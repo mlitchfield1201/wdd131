@@ -59,7 +59,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    font-size: 130%;
+    color:blueviolet;
+    font-style: italic;
 }
 
 header span {
